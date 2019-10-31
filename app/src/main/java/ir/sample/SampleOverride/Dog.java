@@ -2,11 +2,6 @@ package ir.sample.SampleOverride;
 
 public class Dog extends Animal
 {
-
-
-
-
-
     @Override
     public void move()
     {
@@ -14,8 +9,8 @@ public class Dog extends Animal
     }
 
 
-
-    public void sound(){
+    public void sound()
+    {
         System.out.println("Hap Hap");
 
     }

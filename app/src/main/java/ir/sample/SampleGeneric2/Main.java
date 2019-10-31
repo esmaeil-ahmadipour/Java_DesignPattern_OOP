@@ -11,7 +11,6 @@ public class Main
         Sample<Float> floatSample = new Sample<>(FLOAT_VALUE);
         //Get Data From Class Sample by (GetterMethod)
         Float number = floatSample.getItem();
-
         //Display (Return Value) From Class Sample
         System.out.println(number);
     }
