@@ -10,6 +10,7 @@ public class Sample implements Runnable
 
     public Sample(String string)
     {
+        //save passed variable to member variable ;
         this.string = string;
     }
 
