@@ -13,5 +13,12 @@ public class Main
 
         Shape shape3 = shapeFactory.getShape("Square");
         shape3.draw();
+        String test1="AbCd";
+        String test2="abcD".toLowerCase();
+        String test3 = null;
+
+        System.out.println(test2);
+
+
     }
 }
