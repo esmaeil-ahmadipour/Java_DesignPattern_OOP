@@ -1,7 +1,5 @@
 package ir.sample.DesignPatternBuilder;
 
-import android.widget.SimpleCursorAdapter;
-
 public class Main
 {
     public static void main(String[] args)
