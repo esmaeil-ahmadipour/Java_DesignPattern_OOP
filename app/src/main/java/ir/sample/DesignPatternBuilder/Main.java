@@ -12,12 +12,7 @@ public class Main
                 .atRate(2.5)
                 .build();
 
-        System.out.println("account_accountNumber = "+account._accountNumber);
-        System.out.println("account_balance = "+account._balance);
-        System.out.println("account_branch = "+account._branch);
-        System.out.println("account_interestRate = "+account._interestRate);
-        System.out.println("account_owner = "+account._owner);
-
+        display_information(account,"account");
 
 
         BankAccount anotherAccount = new BankAccount.Builder(4567L)
@@ -27,11 +22,17 @@ public class Main
                 .atRate(5)
                 .build();
 
-        System.out.println("anotherAccount_accountNumber = "+anotherAccount._accountNumber);
-        System.out.println("anotherAccount_balance = "+anotherAccount._balance);
-        System.out.println("anotherAccount_branch = "+anotherAccount._branch);
-        System.out.println("anotherAccount_interestRate = "+anotherAccount._interestRate);
-        System.out.println("anotherAccount_owner = "+anotherAccount._owner);
+        display_information(anotherAccount,"anotherAccount");
+
+
+    }
+    public static void  display_information(BankAccount object , String objName){
+        System.out.println(objName+"_accountNumber = " +object._accountNumber);
+        System.out.println(objName+"_balance = "+object._balance);
+        System.out.println(objName+"_branch = "+object._branch);
+        System.out.println(objName+"_interestRate = "+object._interestRate);
+        System.out.println(objName+"_owner = "+object._owner);
+        System.out.println("-----------------------------");
 
     }
 }
