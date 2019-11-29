@@ -7,7 +7,6 @@ public class EmailService
     String FirstName;
     String LastName;
     String Location;
-
     public static class Builder
     {
         private String username; //This is important, so we'll pass it to the constructor.
