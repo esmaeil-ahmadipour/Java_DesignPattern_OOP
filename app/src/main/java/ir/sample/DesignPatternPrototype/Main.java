@@ -12,6 +12,7 @@ public class Main
 
         // clone_sample isn't dependency to main_sample ;
         Sample clone_sample = (Sample) main_sample.getClone();
+        Sample clone_sample2 = (Sample) main_sample.getClone();
 
         // (variable copy_sample) is Copy of (variable main_sample) ;
         // copy_sample is dependency to main_sample ;
@@ -29,6 +30,9 @@ public class Main
 
         System.out.println("Copy Sample: " + copy_sample);
         copy_sample.showRecords();
+
+        System.out.println("Clone Sample2: " + clone_sample2);
+        clone_sample2.showRecords();
 
 
     }
